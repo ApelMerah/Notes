@@ -24,7 +24,7 @@
     
     <div id="all_content">
         <div id="main_content">
-            <a href="index.html"><img id="image_header" src="img/placeholder.jpeg" /></a>
+            <a href="index.php"><img id="image_header" src="img/placeholder.jpeg" /></a>
 
             <hr id="content_line">
 

@@ -11,7 +11,7 @@ $(document).ready(() => {
             data: user_data,
             success: function(status) {
                 if (status == 1) {
-                    window.location.replace("/Style 3 rev3 cont/index.php");
+                    window.location.replace("/index.php");
                 }
                 else if (status == -1) {
                     alert('Login failed! please recheck your username and password!');

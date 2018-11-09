@@ -6,7 +6,7 @@ session_start();
 $username = $_POST["username"];
 $password = $_POST["password"];
 
-$_SESSION["username"] = $username;  // Bypass login (Comment to disable Bypass)
+// $_SESSION["username"] = $username;  // Bypass login (Comment to disable Bypass)
 
 $query = "SELECT * FROM user WHERE username = '" .  $username . "' AND password = '" . $password . "'";
 $result = $connection->query($query);

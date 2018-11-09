@@ -26,7 +26,7 @@ const logout = () => {
         url: 'php/doLogout.php',
         type: 'post',
         success: function() {
-            window.location.replace(`/Style 3 rev3 cont/index.php`);
+            window.location.replace(`/index.php`);
         },
         error: function(error) {
             console.log(error);

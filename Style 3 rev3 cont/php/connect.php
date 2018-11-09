@@ -1,2 +1,2 @@
 <?php
-	$connection = mysqli_connect('localhost', 'prk', 'prk', 'prk');
+	$connection = mysqli_connect('localhost', 'root', 'root', 'prk');
