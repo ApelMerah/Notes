@@ -1,0 +1,29 @@
+#page_content {
+    text-align: center;
+}
+
+.login_component {
+    margin-bottom: 1%;
+}
+
+.prompt {
+    float: left;
+    width: 20%;
+    font-size: 12pt;
+}
+
+.login_field {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12pt;
+    width: 50%;
+}
+
+#btn_login {
+    width: 15%;
+    margin-top: 2.5%;
+}
+
+#content_line::after {
+    content: "Login";
+}
