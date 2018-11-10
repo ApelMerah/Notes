@@ -5,7 +5,7 @@ git add [file name]
 
 git commit -m [comment]
 
-git push --set-upstream origin [branch name]
+git push origin [branch name]
 
 git pull origin [branch name]
 
